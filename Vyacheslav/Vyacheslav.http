@@ -1,0 +1,6 @@
+@Vyacheslav_HostAddress = http://localhost:5251
+
+GET {{Vyacheslav_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
