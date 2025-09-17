@@ -2,16 +2,16 @@
 {
     public class Treker : ITreker
     {
-        public int Count { get; set; }
+        private int _count;
 
         public string AddVisiting()
         {
-            Count++;
+            _count++;
             return "Успешно добавлено посещение!";
         }
         public int ReturnCount()
         {
-            return Count;
+            return _count;
         }
     }
 }
