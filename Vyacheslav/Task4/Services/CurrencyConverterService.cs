@@ -2,9 +2,9 @@
 {
     public class CurrencyConverterService : ICurrencyConverterService
     {
-        private CurrencyRateService _currencyRateService;
+        private ICurrencyRateService _currencyRateService;
 
-        public CurrencyConverterService(CurrencyRateService currencyRateService)
+        public CurrencyConverterService(ICurrencyRateService currencyRateService)
         {
             _currencyRateService = currencyRateService;
         }
